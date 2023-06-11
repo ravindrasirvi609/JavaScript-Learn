@@ -70,3 +70,16 @@ function objtest(anyojb){
 }
 
 objtest(user);
+
+// declaration in function 
+
+function addSum(num){
+    return 3+num;
+}
+
+const addSum2 = function(num){
+    return 3+num
+}
+
+console.log(addSum(2));
+console.log(addSum2(2));
