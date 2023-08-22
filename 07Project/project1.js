@@ -5,7 +5,11 @@ const pinkButton = document.getElementById('pink');
 const yellowButton = document.getElementById('yellow');
 
 // Add click event listeners to each button
-redButton.addEventListener('click', () => changeBackgroundColor('red'));
+console.log("hitting");
+redButton.addEventListener('click', () => {
+    changeBackgroundColor('red');
+    document.body.style.color = 'white';
+});
 greyButton.addEventListener('click', () => changeBackgroundColor('grey'));
 pinkButton.addEventListener('click', () => changeBackgroundColor('pink'));
 yellowButton.addEventListener('click', () => changeBackgroundColor('yellow'));
