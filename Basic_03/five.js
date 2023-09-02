@@ -20,4 +20,10 @@ const arr2 = [1, 4, 6, 3, 7, 8];
 const filterValues = arr2.filter((item) => {
   return item > 4;
 });
-console.log( filterValues);
+console.log(filterValues);
+
+// map loop --
+const arr3 = [1, 4, 6, 3, 7, 8];
+
+const mapValues = arr3.map((item) => item + 10);
+console.log(mapValues);
